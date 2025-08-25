@@ -1,0 +1,57 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Wellness & Prevention",
+      "description": "Comprehensive annual check-ups to keep your pet healthy, including physical exams, parasite screening, and nutritional counseling."
+    },
+    {
+      "id": 2,
+      "name": "Vaccinations",
+      "description": "Customized vaccination plans to protect your pet from common and serious infectious diseases based on their lifestyle and risk factors."
+    },
+    {
+      "id": 3,
+      "name": "Dental Care",
+      "description": "From routine cleanings to advanced oral surgery, we help maintain your pet's dental hygiene, which is crucial for their overall health."
+    },
+    {
+      "id": 4,
+      "name": "Surgery",
+      "description": "Our state-of-the-art surgical suite is equipped for a wide range of procedures, from spaying and neutering to more complex operations."
+    },
+    {
+      "id": 5,
+      "name": "Diagnostics",
+      "description": "We use advanced in-house diagnostic tools, including digital X-rays and laboratory services, for fast and accurate results."
+    },
+    {
+      "id": 6,
+      "name": "Emergency Care",
+      "description": "We are equipped to handle urgent care situations during our business hours. Please call ahead to let us know you're on your way."
+    }
+  ],
+  "team": [
+    {
+      "id": 1,
+      "name": "Dr. Emily Carter",
+      "title": "Lead Veterinarian, DVM",
+      "bio": "Dr. Carter founded The Caring Paw with the vision of providing compassionate, high-quality care. She has a special interest in internal medicine and animal behavior.",
+      "image_url": "https://i.imgur.com/vH1fDiy.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Ben Adams",
+      "title": "Veterinarian, DVM",
+      "bio": "Dr. Adams is a skilled surgeon with a passion for orthopedics and emergency medicine. He loves finding solutions for complex cases and seeing his patients recover.",
+      "image_url": "https://i.imgur.com/kS5kLqF.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Maria Rodriguez",
+      "title": "Lead Veterinary Technician",
+      "bio": "Maria has been a certified veterinary technician for over 10 years. She ensures the clinic runs smoothly and provides loving care to every animal that comes through our doors.",
+      "image_url": "https://i.imgur.com/O6z2F9r.jpeg"
+    }
+  ]
+}
