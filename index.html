@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Hub: Vet Shop Website</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 0; background-color: #f0f2f5; color: #1c1e21; display: flex; flex-direction: column; min-height: 100vh; }
+        header { background-color: #4a6da7; color: white; padding: 2rem; text-align: center; }
+        h1 { margin: 0; font-size: 2.5rem; }
+        main { flex: 1; padding: 2rem; max-width: 960px; margin: 0 auto; width: 100%; box-sizing: border-box; }
+        .nav-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+        .card { background-color: #fff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-decoration: none; color: inherit; transition: transform 0.2s ease, box-shadow 0.2s ease; display: flex; flex-direction: column; overflow: hidden; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 8px 16px rgba(0,0,0,0.15); }
+        .card h2 { font-size: 1.5rem; margin: 0; padding: 1.5rem; border-bottom: 1px solid #ddd; }
+        .card p { font-size: 1rem; padding: 1.5rem; flex-grow: 1; margin: 0; color: #555; }
+        footer { background-color: #e9ebee; text-align: center; padding: 1.5rem; font-size: 0.9rem; color: #555; }
+        footer a { color: #4a6da7; text-decoration: none; margin: 0 10px; }
+        footer a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Project Deliverable: Vet Shop Website</h1>
+    </header>
+    <main>
+        <p>This project package contains all the necessary files for the vet shop website, including documentation, wireframes, and a fully interactive prototype.</p>
+        <div class="nav-grid">
+            <a href="docs/overview.md" class="card">
+                <h2>Documentation</h2>
+                <p>Project overview, requirements, and user flows. Essential reading to understand the project scope and goals.</p>
+            </a>
+            <a href="wireframes/index.html" class="card">
+                <h2>Wireframes</h2>
+                <p>Low-fidelity visual blueprints of the website's structure and layout for each page.</p>
+            </a>
+            <a href="prototype/index.html" class="card">
+                <h2>Interactive Prototype</h2>
+                <p>A clickable, high-fidelity prototype demonstrating the final look, feel, and functionality of the website.</p>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <a href="docs/overview.md">View Documentation</a> &bull;
+        <a href="wireframes/index.html">View Wireframe</a>
+    </footer>
+</body>
+</html>
